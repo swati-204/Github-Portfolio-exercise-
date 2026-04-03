@@ -9,7 +9,7 @@
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://swati-204.github.io/Github-Portfolio-exercise-'",
     "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build-gh && gh-pages -d dist"
   },
   "repository": {
     "type": "git",

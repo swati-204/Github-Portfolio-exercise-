@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about-img.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -35,7 +35,9 @@ const skillsList = [
   "User experience",
   "Inclusive design",
   "Focus group testing",
-  "Mobile user interfaces",
+  "Salesforce Admin",
+  "Sales cloud",
+  "Salesforce Loyalty Management",
   "Graphic design",
 ];
 
@@ -45,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I’m someone who’s quietly figuring things out—one concept, one project, one late-night thought at a time.Currently working as a QA Engineer while diving deeper into tech, I spend my days exploring how things work… and sometimes, how they break.I’ve been building my foundation in development through small, consistent steps—whether it was creating 30 mini web projects, learning core concepts of Data Structures, or understanding the flow behind systems like Salesforce. For me, it’s never just about finishing something—it’s about understanding it deeply.Beyond the technical side, I find comfort in writing, in observing, in slowing down. I like creating things that feel thoughtful—whether it's code, content, or quiet ideas that sit with you for a while.Right now, I’m in a phase of learning, unlearning, and becoming—trying to grow not just as a developer, but as someone who builds with intention.";
 
 const About = () => {
   return (

@@ -8,6 +8,8 @@
     "start": "parcel",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://swati-204.github.io/Github-Portfolio-exercise-'",
+    "build-main-pages": "parcel build --no-content-hash --public-url ./",
+    "publish-main": "npm run build-main-pages && cp -f dist/* . && touch .nojekyll",
     "predeploy": "npm run build-gh",
     "deploy": "npm run build-gh && gh-pages -d dist"
   },
